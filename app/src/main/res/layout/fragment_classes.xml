@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    tools:context=".FragmentClasses.ClassesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollViewForCourses"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/linearLayourForCourses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/learnPhysicsText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/secular_one"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/learn_physics_text"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textSize="24sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:orientation="horizontal">
+
+
+                            <Space
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/physicsCardView"
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content"
+                                android:fadingEdge="vertical"
+                                android:padding="5dp"
+                                app:cardBackgroundColor="#ffffff"
+                                app:cardCornerRadius="8dp"
+                                app:cardPreventCornerOverlap="true">
+
+                                <RelativeLayout
+                                    android:id="@+id/relaativelayoutcardForPhysicsCourse"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageViewForPhysicsPhysicsCourse"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="130dp"
+                                        android:padding="10dp"
+                                        android:paddingTop="0dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/universe" />
+
+                                    <TextView
+                                        android:id="@+id/textViewForPhysicsPhysicsCourse"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@id/imageViewForPhysicsPhysicsCourse"
+                                        android:fontFamily="@font/secular_one"
+                                        android:text="@string/physics_text"
+                                        android:textAlignment="center"
+                                        android:textColor="#F0040B3C"
+                                        android:textSize="20sp"
+                                        android:typeface="normal" />
+
+                                    <ProgressBar
+                                        android:id="@+id/progressBarForPhysicsPhysicsCourse"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@id/textViewForPhysicsPhysicsCourse"
+                                        android:layout_alignParentBottom="false"
+                                        android:backgroundTint="#EEEEEE"
+                                        android:max="100"
+                                        android:paddingTop="30dp"
+                                        android:progress="80"
+                                        android:progressTint="#8BC34A" />
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <Space
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/secular_one"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/learn_quemistry_text"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textSize="24sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:orientation="horizontal">
+
+
+                            <Space
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/chemistryCourseButtom"
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content"
+                                android:fadingEdge="vertical"
+                                android:padding="5dp"
+                                app:cardBackgroundColor="#ffffff"
+                                app:cardCornerRadius="8dp"
+                                app:cardPreventCornerOverlap="true">
+
+                                <RelativeLayout
+                                    android:id="@+id/relaativelayoutcaard"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageView42"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="130dp"
+                                        android:padding="10dp"
+                                        android:paddingTop="0dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/flask" />
+
+                                    <TextView
+                                        android:id="@+id/textViewChemistryChemistryCourse"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@id/imageView42"
+                                        android:fontFamily="@font/secular_one"
+                                        android:text="@string/quemistry_text"
+                                        android:textAlignment="center"
+                                        android:textColor="#F0040B3C"
+                                        android:textSize="20sp"
+                                        android:typeface="normal" />
+
+                                    <ProgressBar
+                                        android:id="@+id/progressBar2"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_below="@id/textViewChemistryChemistryCourse"
+                                        android:layout_alignParentBottom="false"
+                                        android:backgroundTint="#EEEEEE"
+                                        android:max="100"
+                                        android:paddingTop="30dp"
+                                        android:progress="80"
+                                        android:progressTint="#8BC34A" />
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <Space
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:id="@+id/learnBiologyBilogyText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/secular_one"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/learn_biology_text"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textSize="24sp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:orientation="horizontal">
+
+
+                            <Space
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/biologyCourseButtom"
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content"
+                                android:fadingEdge="vertical"
+                                android:padding="5dp"
+                                app:cardBackgroundColor="#ffffff"
+                                app:cardCornerRadius="8dp"
+                                app:cardPreventCornerOverlap="true">
+
+                                <RelativeLayout
+                                    android:id="@+id/relaativelayoutChemistryChemistryCourse"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageViewChemistryChemistryCourse"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="130dp"
+                                        android:padding="10dp"
+                                        android:paddingTop="0dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/biology" />
+
+                                    <TextView
+                                        android:id="@+id/textView10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@id/imageViewChemistryChemistryCourse"
+                                        android:fontFamily="@font/secular_one"
+                                        android:text="@string/biology_text"
+                                        android:textAlignment="center"
+                                        android:textColor="#F0040B3C"
+                                        android:textSize="20sp"
+                                        android:typeface="normal" />
+
+                                    <ProgressBar
+                                        android:id="@+id/progressBarChemistryChemistryCourse"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@id/textView10"
+                                        android:layout_alignParentBottom="false"
+                                        android:backgroundTint="#EEEEEE"
+                                        android:max="100"
+                                        android:paddingTop="30dp"
+                                        android:progress="80"
+                                        android:progressTint="#8BC34A" />
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <Space
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutForValuesOfCourses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:foregroundGravity="top|right">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewOfScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="22dp"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#3949AB"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="0"
+                            android:padding="10dp"
+                            android:src="@drawable/gem" />
+
+                        <TextView
+                            android:id="@+id/textViewScore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:paddingRight="8dp"
+                            android:text="0"
+                            android:textColor="@android:color/holo_orange_dark"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

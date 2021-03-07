@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "636227891901",
+    "firebase_url": "https://sense-cbf5b.firebaseio.com",
+    "project_id": "sense-cbf5b",
+    "storage_bucket": "sense-cbf5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636227891901:android:3e8e222ca3e563a15efdd4",
+        "android_client_info": {
+          "package_name": "com.example.sense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636227891901-5o76tpcij8d234shb5qmiijgcg2q7d9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sense",
+            "certificate_hash": "0356a08c8d6e54d551ba01260358d959137a6dbd"
+          }
+        },
+        {
+          "client_id": "636227891901-0jsdd92q0im89jsu25nljm9l5o3n99er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS6KyHtZED7GELnqxYIIAmhnhIr-NK6Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636227891901-0jsdd92q0im89jsu25nljm9l5o3n99er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sense</string>
+    <string name="facebook_app_id" translatable="false">565543520698298</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb565543520698298</string>
+    <string name="title_activity_bottom" translatable="false">BottomActivity</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="title_activity_bottom_navigation" translatable="false">BottomNavigationActivity</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_profile_fragment_tabbed" translatable="false">ProfileFragmentTabbedActivity</string>
+    <string name="tab_text_1" translatable="true">Achievements</string>
+    <string name="tab_text_2" translatable="true">Friends</string>
+</resources>

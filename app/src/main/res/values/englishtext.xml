@@ -1,0 +1,26 @@
+<resources>
+    <string name="description_main_page">Become a member and start learning the fun way</string>
+    <string name="description_login_page">Log in and continue learning the fun way</string>
+
+    <string name="text_enter_email">Enter your email adress</string>
+    <string name="text_create_password">Create a new password</string>
+    <string name="text_enter_password">Enter your password</string>
+
+    <string name="segment_home_title_password">Home</string>
+    <string name="segment_profile_title_password">Me</string>
+    <string name="segment_store_title_password">Store</string>
+    <string name="segment_classes_title_password">Classes</string>
+
+    <string name="physics_text">Physics</string>
+    <string name="quemistry_text">Chemistry</string>
+    <string name="biology_text">Biology</string>
+
+    <string name="learn_physics_text">Learn Physics</string>
+    <string name="learn_quemistry_text">Learn Chemistry</string>
+    <string name="learn_biology_text">Learn Biology</string>
+
+    <string name="physics_thebasics">The Basics</string>
+    <string name="physics_thebasicsII">The Basics II</string>
+
+    <string name="physics_thebasics_page3_text1">\nYou take your horse to the old time road  and you start riding from the start point up until you reach a car 10 meters afar</string>
+</resources>

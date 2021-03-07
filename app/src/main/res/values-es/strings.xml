@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Sense</string>
+    <string name="tab_text_1" translatable="true">Logros</string>
+    <string name="tab_text_2" translatable="true">Amigos</string>
+    <string name="button_text_login">INGRESAR</string>
+    <string name="button_text_policy">Registrandote aceptas nuestros Terminos y Politicas</string>
+    <string name="button_text_signinwithemail">Ingresar con email</string>
+    <string name="button_text_signup">REGISTRARSE</string>
+    <string name="button_text_signupwithemail">Registrarse con email</string>
+    <string name="button_text_continue">Continuar</string>
+    <string name="button_text_policysignin">Ingresando aceptas nuestros Terminos y Politicas</string>
+</resources>

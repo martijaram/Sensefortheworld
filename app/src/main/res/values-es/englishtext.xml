@@ -1,0 +1,26 @@
+<resources>
+    <string name="description_main_page">Vuelvete miembro y empieza a aprender</string>
+    <string name="description_login_page">Ingresa y continua divirtiendote aprendiendo</string>
+
+    <string name="text_enter_email">Ingresa tu direccion de email</string>
+    <string name="text_create_password">Crea una contraña</string>
+    <string name="text_enter_password">Ingresa tu contraseña</string>
+
+    <string name="segment_home_title_password">Pagìna Principal</string>
+    <string name="segment_profile_title_password">Yo</string>
+    <string name="segment_store_title_password">Tienda</string>
+    <string name="segment_classes_title_password">Clases</string>
+
+    <string name="physics_text">Fisica</string>
+    <string name="quemistry_text">Quimica</string>
+    <string name="biology_text">Biologia</string>
+
+    <string name="learn_physics_text">Aprende Fisica</string>
+    <string name="learn_quemistry_text">Aprende Quimica</string>
+    <string name="learn_biology_text">Aprende Biologia</string>
+
+    <string name="physics_thebasics">Intro</string>
+    <string name="physics_thebasicsII">Intro II</string>
+
+    <string name="physics_thebasics_page3_text1">\nLlevas tu caballo a caminar y empiezas a cabalgar desde el punto de partida hasta que llegas a un carro que esta 10 metros a la derecha desde donde empezaste</string>
+</resources>
