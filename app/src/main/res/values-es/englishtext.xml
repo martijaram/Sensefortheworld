@@ -22,5 +22,9 @@
     <string name="physics_thebasics">Intro</string>
     <string name="physics_thebasicsII">Intro II</string>
 
+    <string name="activity_main_description">Aprende de la manera divertida, por siempre</string>
+
+    <string name="physics_thebasics_page1_text1">\nHas escuchado sobre las maginuted escalares? \nBien, veamos un ejemplo:\n\nDigamos que tienes una caja que se movio 2 metros</string>
+
     <string name="physics_thebasics_page3_text1">\nLlevas tu caballo a caminar y empiezas a cabalgar desde el punto de partida hasta que llegas a un carro que esta 10 metros a la derecha desde donde empezaste</string>
 </resources>

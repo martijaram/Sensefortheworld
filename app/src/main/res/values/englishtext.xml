@@ -22,5 +22,7 @@
     <string name="physics_thebasics">The Basics</string>
     <string name="physics_thebasicsII">The Basics II</string>
 
+    <string name="physics_thebasics_page1_text1">\nHave you heard about scalars? \nWell, let\'s see an example:\n\nSay you have a box that moved 2 meters</string>
+    <string name="activity_main_description">Learn the fun way. Forever.</string>
     <string name="physics_thebasics_page3_text1">\nYou take your horse to the old time road  and you start riding from the start point up until you reach a car 10 meters afar</string>
 </resources>

@@ -11,7 +11,7 @@
         android:id="@+id/constraint1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="\nHave you heard about scalars? \nWell, let's see an example:\n\nSay you have a box that moved 2 meters"
+                    android:text="@string/physics_thebasics_page1_text1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                 <ImageView
@@ -738,7 +738,7 @@
         android:id="@+id/constraint3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
